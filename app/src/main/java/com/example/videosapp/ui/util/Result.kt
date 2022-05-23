@@ -18,11 +18,6 @@ sealed class Result<out T> {
     object InProgress : Result<Nothing>()
 
 }
-
-sealed class ResultTest<out T> {
-    object InProgress: Result<Nothing>()
-    object Success<out T>()
-}
 /**
  * This is the function return flow of three states
  * one is [Result.InProgress] prior to an api call to show loder
