@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VideosApp</string>
+    <string name="title_dashboard">Videos</string>
+    <string name="title_notifications">History</string>
+    <string name="retry">Retry</string>
+    <string name="something_went_wrong">Something went wrong!</string>
+
+</resources>
